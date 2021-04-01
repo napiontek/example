@@ -1,13 +1,13 @@
 Package: example
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Weighted Sum for FLMetab Smeinar
+Version: 1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jakob",
+           family = "Napiontek",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "napiontek@pik-potsdam.de",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Minimal example using weighted sum for the FLMetab Method Seminar on 21 April 2021
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -15,5 +15,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
-Imports: 
-    ggplot2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

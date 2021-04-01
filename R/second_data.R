@@ -1,4 +1,4 @@
-#' Sample of 100 datap oints between 1 and 100
+#' Sample of 100 data points between 1 and 100
 #'
 #' A data set to be used as example or value or weight
 #'
